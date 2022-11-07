@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riddle-me-this</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+<div class="header">
+    <h1 id"verticallyAlign" >Riddle-Me-This</h1></div>   
+<div class="start">
+    <h3>Click the start guessing button to get the riddle and start the timer!</h3>
+    <button id="start">Start Guessing</button>
+</div>
+<div id="riddle"></div>
+<div class="userGuess">
+    <div id ="wrongInput"></div>
+    <form id ="resetMe" onsubmit="return false">
+        <input type="text" id= "textBox"font-size="30px"placeholder="Enter your guess here!" id="guess">
+      </form>
+</div>
+<div id = "wrongGuess"></div>
+<div id="answer"></div>
+<div class="buttons">
+<button id="checkAnswer">Check Answer</button>
+<button id="next">Next Riddle</button>  
+</div>
+<div class="timer">
+    <span id="countdown"></span>
+</div> 
+</body>
+</html>
